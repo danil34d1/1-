@@ -1,0 +1,16 @@
+{
+  "id": "iso-170-70",
+  "display_name": "ISO 170/70 мыло",
+  "status": "needs-verification",
+  "category": "unknown",
+  "source_records": [{"type": "conversation", "date": "2026-07-15", "text": "ISO 170/70 мыло", "reference": null}],
+  "confirmed_facts": [],
+  "hypotheses": [
+    {"field": "possible_identity", "value": "AES/SLES 70", "evidence": "Предварительная версия из беседы; документами не подтверждена."},
+    {"field": "possible_packaging_weight_kg", "value": 170, "evidence": "Число может означать массу, но источник отсутствует."},
+    {"field": "possible_active_matter_percent", "value": 70, "evidence": "Число может означать концентрацию, но источник отсутствует."}
+  ],
+  "next_verification": ["Получить фото этикетки", "Установить производителя и артикул", "Проверить паспорт качества, SDS или TDS"],
+  "notes": ["Не использовать гипотезы как закупочные или рецептурные параметры."],
+  "updated_at": "2026-07-15"
+}

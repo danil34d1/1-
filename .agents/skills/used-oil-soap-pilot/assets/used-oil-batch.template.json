@@ -1,0 +1,12 @@
+{
+  "batch_id": "UCO-YYYY-NNN",
+  "source": "REPLACE_WITH_CAFE_OR_SUPPLIER",
+  "lab_report_number": "REPLACE_WITH_REPORT_NUMBER",
+  "measured_on": "YYYY-MM-DD",
+  "sap_koh_mg_g": "REPLACE_WITH_LAB_RESULT",
+  "moisture_pct": "REPLACE_WITH_LAB_RESULT",
+  "insolubles_pct": "REPLACE_WITH_LAB_RESULT",
+  "acid_value_mg_koh_g": "REPLACE_WITH_LAB_RESULT",
+  "mineral_oil_detected": "REPLACE_WITH_TRUE_OR_FALSE",
+  "detergent_detected": "REPLACE_WITH_TRUE_OR_FALSE"
+}

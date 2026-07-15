@@ -1,0 +1,4 @@
+interface:
+  display_name: "Мыло из отработанного масла"
+  short_description: "Пилот UCO-мыла по лабораторным данным"
+  default_prompt: "Используй $used-oil-soap-pilot для проверки партии отработанного масла и подготовки безопасного расчёта Soap Calc."

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Soap product record",
+  "type": "object",
+  "required": ["id","display_name","status","category","source_records","confirmed_facts","hypotheses","next_verification","notes","updated_at"],
+  "properties": {
+    "id": {"type":"string","pattern":"^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "display_name": {"type":"string","minLength":1},
+    "status": {"enum":["needs-verification","verified","deprecated"]},
+    "category": {"enum":["unknown","surfactant","detergent","soap","builder","solvent","additive","finished-product"]},
+    "source_records": {"type":"array","minItems":1},
+    "confirmed_facts": {"type":"array"},
+    "hypotheses": {"type":"array"},
+    "next_verification": {"type":"array"},
+    "notes": {"type":"array"},
+    "updated_at": {"type":"string","format":"date"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "replace-id",
+  "display_name": "Исходное название",
+  "status": "needs-verification",
+  "category": "unknown",
+  "source_records": [{"type":"other","date":"YYYY-MM-DD","text":"Точный исходный текст","reference":null}],
+  "confirmed_facts": [],
+  "hypotheses": [],
+  "next_verification": ["Получить первичный источник"],
+  "notes": [],
+  "updated_at": "YYYY-MM-DD"
+}
